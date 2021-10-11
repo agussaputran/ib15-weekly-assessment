@@ -1,6 +1,6 @@
 # 1st Week Backend Assessment
 
-In this assessment you must create a function that accepts more than one parameter in the form of a string  and returns a value in the form of a string combination of the parameters entered.
+In this assessment you must create a function that accepts more than one parameter in of string  and returns a value string combination of the parameters entered.
 
 **Deadline**: Friday, 15 October 2021, 23:59 WIB
 
