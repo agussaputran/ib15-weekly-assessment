@@ -1,6 +1,7 @@
-function printMyFullName(parameter){
+function getFullname(parameter1, parameter2){
     //process
     // nilai balikan
 }
 
-console.log(printMyFullName("parameter"))
+// call the function
+console.log(getFullname("parameter1","parameter2"))
