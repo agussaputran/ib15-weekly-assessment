@@ -1,7 +1,10 @@
-function getFullname(parameter1, parameter2){
-    //process
-    // nilai balikan
+function getFullname(firstName, lastName) {
+  //process
+  const fullName = `${firstName} ${lastName}`;
+
+  // nilai balikan
+  return fullName;
 }
 
 // call the function
-console.log(getFullname("parameter1","parameter2"))
+console.log(getFullname("Yosias", "Ignatius"));
