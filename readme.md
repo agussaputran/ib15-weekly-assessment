@@ -10,4 +10,4 @@ This repository will be our place for questions and answers for all weekly asses
 
 
 **Note** : You can update your branch refer to main branch by git pull command.  
-type *git pull origin main* from your branch.
+type ***git pull origin main*** from your branch.
