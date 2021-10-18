@@ -13,5 +13,6 @@ In this assessment, you must complete 2 exercises :
 - Create a function
 - function has a parameter
 - function has a return value
+- function has the appropriate process/logic
 - can run git properly, such as clone, pull, create new branch, push branch
 - Bonus : Complete the exercise without using built-in methods such as .split .substring .slice .reverse etc.
