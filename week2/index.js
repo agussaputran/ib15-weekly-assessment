@@ -1,23 +1,21 @@
 const removeFirstAndLastCharacter = (input) => {
-    const arrOfLetter = input.split('')
-    arrOfLetter.pop()
-    arrOfLetter.shift()
-    const result2 = arrOfLetter.join('')
-    return result2
+    // the process
+    let result = '';
+    for (let i = 0; i < input.length; i++) {
+        if (i === 0 || i === input.length - 1) continue
+        result += input[i];
+    }
+    return result; // the result
 }
+
 const reversedString = (input) => {
     // the process
-    const word = input.split('')
-    const wordLength = input.length
-
-    const subKataTerbalik = word.map(
-        function(huruf, index) {
-            return word[wordLength-(1+index)]
-        }
-    ) 
-    const kataFinal = subKataTerbalik.join('')
-    return kataFinal // the result
+    let result = '';
+    for (let i = input.length - 1; i >= 0; i--) {
+        result += input[i];
+    }
+    return result;// the result
 }
 
-console.log(removeFirstAndLastCharacter("malam")) // 
+console.log(removeFirstAndLastCharacter("malam")) 
 console.log(reversedString("siang")) 
