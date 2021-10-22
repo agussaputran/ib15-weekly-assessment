@@ -1,11 +1,11 @@
-const removeFirstAndLastCharacter = (input) => {
+function removeFirstAndLastCharacter(input) {
   // the process
   var input = "glints";
   var newInput = input.substring(1, input.length - 1);
   return newInput; // the result
-};
+}
 
-const reversedString = (input) => {
+function reversedString(input) {
   // the process
   var input = "hadiyansyah yusril";
   var newInput = "";
@@ -14,7 +14,7 @@ const reversedString = (input) => {
     newInput += input[i];
   }
   return newInput; // the result
-};
+}
 
 console.log(removeFirstAndLastCharacter("glints")); // expected output : lint
 console.log(reversedString("hadiyansyah yusril")); // expected output : lirsuy haysnayidah
