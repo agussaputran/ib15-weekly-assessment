@@ -2,7 +2,9 @@ function sumOfArray(arr1, arr2) {
     let result = 0
     // the logic 
     // type the code below
-
+    arr1.concat(arr2).forEach((data) => {
+        result += data
+    })
     // type the code above
     return result
 }
